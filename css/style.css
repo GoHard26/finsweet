@@ -294,7 +294,7 @@ display: flex;
 }
 
 .info__card{
-    margin: 0 12px;
+    margin:  12px;
     padding: 40px;
     max-width: 411px;
     max-height: 380px;
@@ -311,16 +311,16 @@ display: flex;
     transition: .5s;
 }
 
-.card__ico{
+.info__card__ico{
     margin-bottom: 24px;
 }
 
-.card__title{
+.info__card__title{
     margin-bottom: 8px;
     color: #161722;
 }
 
-.card__text{
+.info__card__text{
     color: #161722;
     max-width: 250px;
 }
@@ -366,14 +366,18 @@ display: flex;
 .welcome__images{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 225px;
+    
+    
 }
 
 .welcome__img{
-    margin: 0 3%;
+    margin: 0 4%;
+    margin-bottom: 4%;
     display: inline-block;
     position: relative;
+    
 }
 
 .welcome__img:hover, .welcome__img:focus{
@@ -382,6 +386,7 @@ display: flex;
 }
 
 .welcome__container_bottom{
+    margin-top: 225px;
     max-width: 512px;
 }
 
@@ -404,6 +409,98 @@ display: flex;
     border: 1px solid #161722;
     border-radius: 5px;
 }
+
+
+/* Benefits of our Church */
+
+
+.benefits{
+    background: #F5F2F0;
+}
+
+.benefits__wrapper{
+    padding: 128px 98px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.benefits__sub_title{
+    margin-bottom: 20px;
+}
+
+.benefits__title{
+    margin-bottom: 64px;
+}
+
+.benefits__cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.benefits__card{
+    margin: 2% 1%;
+    margin-top: 0;
+    width: 302px;
+    height: 384px;
+    padding: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: left;
+}
+
+.benefits__card_first{
+    background: linear-gradient(0deg, rgba(0,0,0,0.804359243697479) 0%, rgba(0,0,0,0) 45%), url(../img/benefits__card_first.png) center;
+}
+
+.benefits__card_second{
+    background: linear-gradient(0deg, rgba(0,0,0,0.804359243697479) 0%, rgba(0,0,0,0) 45%), url(../img/benefits__card_second.png) center;
+}
+
+.benefits__card_third{
+    background: linear-gradient(0deg, rgba(0,0,0,0.804359243697479) 0%, rgba(0,0,0,0) 45%), url(../img/benefits__card_third.png) center;
+}
+
+.benefits__card_fourth{
+    background: linear-gradient(0deg, rgba(0,0,0,0.804359243697479) 0%, rgba(0,0,0,0) 45%), url(../img/benefits__card_fourth.png) center;
+}
+
+.benefits__card__title{
+    color: #FFFFFF;
+}
+
+.benefits__card__text{
+    max-width: 238px;
+    color: #FFFFFF;
+    position: absolute;
+    opacity: 0;
+}
+
+.benefits__card:hover .benefits__card__title{
+    margin-bottom: 88px;
+    transition: .5s;
+}
+
+.benefits__card:hover .benefits__card__text{
+    opacity: 1;
+    transition: .5s;
+    transition-delay: .2s;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
