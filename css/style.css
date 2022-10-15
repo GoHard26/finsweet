@@ -289,12 +289,12 @@ display: flex;
 
 .info__cards{
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     flex-wrap: wrap;
 }
 
 .info__card{
-    margin:  12px;
+    margin:  2%;
     padding: 40px;
     max-width: 411px;
     max-height: 380px;
@@ -368,25 +368,19 @@ display: flex;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
-    
 }
 
 .welcome__img{
-    margin: 0 4%;
-    margin-bottom: 4%;
-    display: inline-block;
-    position: relative;
+    margin: 2.5%;
     
 }
 
 .welcome__img:hover, .welcome__img:focus{
-    top: 130px;
     scale: 1.3;
 }
 
 .welcome__container_bottom{
-    margin-top: 225px;
+    margin-top: 64px;
     max-width: 512px;
 }
 
@@ -492,14 +486,116 @@ display: flex;
 }
 
 
+/* Upcoming Sermons */
 
 
+.upcoming_seremons{
+    padding: 128px 110px;
+}
 
+.upcoming_seremons__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
 
+.upcoming_seremons__sub_title{
+    margin-bottom: 16px;
+}
 
+.upcoming_seremons__title{
+    margin-bottom: 64px;
+}
 
+.upcoming_seremons__content_wrapper{
+    display: flex;
+    justify-content: center;
+}
+.upcoming_seremons__content_block{
+    box-sizing: border-box;
+    padding: 61px 90px;
+    padding-right: 32px;
+    padding-top: 32px;
+    max-height: 512px;
+    background: #FFF5EB;
+    display: flex;
+}
 
+.upcoming_event{
+    padding-top: 29px;
+    max-width: 256px;
+    text-align: left;
+}
 
+.upcoming_event__sub_title{
+    margin-bottom: 16px;
+    background: linear-gradient(109.61deg, #A54E2B -53.83%, #DC9853 62.61%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.upcoming_event__title{
+    margin-bottom: 16px;
+}
+
+.upcoming_event__text{
+    margin-bottom: 32px;
+    color: #161722;
+    opacity: 0.78;
+}
+
+.upcoming_event__date{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 16px;
+    line-height: 24px;
+}
+
+.fa-clock{
+    margin-right: 16px;
+}
+
+.upcoming_event__place{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 32px;
+    line-height: 24px;
+}
+
+.fa-map-marker-alt{
+    margin-right: 16px;
+}
+
+.upcoming_event__button.main_buttons{
+    background: #161722;
+    color: #FFD2A4;
+}
+
+.upcoming_event__button.main_buttons:hover, .upcoming_event__button.main_buttons:focus{
+    background: #161722d8;
+    transition: .3s;
+    
+}
+
+.upcoming_event__date_plate{
+    margin-left: 32px;
+    text-align: right;
+}
+
+.date_plate__number{
+    line-height: 28px;
+}
+
+.date_plate__month{
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.upcoming_seremons__image{
+
+}
 
 
 
