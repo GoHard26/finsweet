@@ -511,20 +511,25 @@ display: flex;
 .upcoming_seremons__content_wrapper{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    
+    
 }
 .upcoming_seremons__content_block{
     box-sizing: border-box;
     padding: 61px 90px;
     padding-right: 32px;
     padding-top: 32px;
+    min-width: 500px;
     max-height: 512px;
     background: #FFF5EB;
     display: flex;
+    justify-content: center;
 }
 
 .upcoming_event{
     padding-top: 29px;
-    max-width: 256px;
+    max-width: 256px; 
     text-align: left;
 }
 
@@ -594,10 +599,58 @@ display: flex;
 }
 
 .upcoming_seremons__image{
-
+    background: url(../img/upcoming_seremons_image.png) center;
+    background-size: cover;
+    max-width: 845px;
+    height: 512px;
+    width:calc(100% - 400px);
+    min-width: 500px;
 }
 
 
+/* CTA */
 
 
+.cta{
+    background:url(../img/cta_bg.png) center no-repeat ;
+    background-size: cover;
+    padding: 128px 366px;
 
+}
+
+.cta__wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.cta__content_block{
+    background: #FFFFFF;
+    backdrop-filter: blur(20px);
+    padding: 72px 48px;
+    min-width: 768px;
+
+}
+
+.cta__title{
+    max-width: 368px;
+}
+
+.cta__text{
+
+}
+
+.cta__button{
+
+}
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
