@@ -621,7 +621,7 @@ p{
     background-size: cover;
     max-width: 845px;
     height: 512px;
-    width:calc(100% - 400px);
+    width:50%;
     min-width: 500px;
 }
 
