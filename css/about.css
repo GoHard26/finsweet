@@ -1,0 +1,115 @@
+/* About us */
+
+
+.about_us{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: left;
+    background: url(../img/about_us_img/about_us_head_bg.png)center no-repeat;
+    background-size: cover;
+}
+
+.about_us__wrapper{
+    padding: 160px 110px;
+}
+
+.about_us__sub_title{
+    margin-bottom: 16px;
+}
+
+
+/* Welcome */
+
+
+.welcome{
+    padding: 128px 0;
+}
+
+.welcome__wrapper{
+    padding: 0;
+}
+
+.welcome__container_bottom{
+    max-width: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+}
+
+.welcome__container_bottom__card{
+    margin: 5%;
+    margin-bottom: 0;
+    width: 372px;
+}
+
+
+/* Benefits of our Church */
+
+
+.benefits_of_church{
+    padding: 0 238px;
+}
+
+.benefits_of_church__wrapper{
+    text-align: center;
+}
+
+.benefits_of_church__sub_title{
+    margin-bottom: 16px;
+}
+
+.benefits_of_church__title{
+    margin-bottom: 60px;
+}
+
+.benefits_of_church__cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.benefits_of_church__card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 2%;
+}
+
+.benefits_of_church__card_left{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 2%;
+}
+
+.benefits_of_church__card__content{
+    max-width: 500px;
+    min-width: 500px;
+    width: 50%;
+}
+
+.benefits_of_church__card__title{
+    margin-bottom: 16px;
+}
+
+.benefits_of_church__card__text{
+    margin-bottom: 24px;
+}
+
+.benefits_of_church__card__img{
+    margin-left: 48px;
+} 
+
+.benefits_of_church__card__img_left{
+    margin-right: 48px;
+}    
