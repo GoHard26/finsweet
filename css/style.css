@@ -1132,6 +1132,7 @@ overflow: hidden;
         scale: .9;
     }
     .benefits__card{
+        padding: 20px;
         margin: 10px;
     }
     .cta{
