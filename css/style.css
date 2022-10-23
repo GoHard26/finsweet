@@ -1134,6 +1134,10 @@ overflow: hidden;
     .benefits__card{
         padding: 20px;
         margin: 10px;
+        align-items: center;
+    }
+    .benefits__card__text{
+        max-width: 200px;
     }
     .cta{
         padding: 20px;
