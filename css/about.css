@@ -113,3 +113,82 @@
 .benefits_of_church__card__img_left{
     margin-right: 48px;
 }    
+
+
+/* Our Team */
+
+
+.our_team{
+    padding: 128px 110px;
+}
+
+.our_team_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.our_team__sub_title{
+    margin-bottom: 16px;
+}
+
+.our_team__title{
+    margin-bottom: 64px;
+}
+
+.our_team__member__cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.our_team__member__card{
+    padding: 48px 0;
+    min-width: 302px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F5F2F0;
+    margin: 12px;
+}
+
+.member_card__avatar{
+    min-width: 168px;
+    min-height: 168px;
+    margin-bottom: 26px;
+}
+
+.member_avatar_1{
+    background: url(../img/about_us_img/member_avatar1.png)center no-repeat;
+}
+
+.member_avatar_2{
+    background: url(../img/about_us_img/member_avatar2.png)center no-repeat;
+}
+
+.member_avatar_3{
+    background: url(../img/about_us_img/member_avatar3.png)center no-repeat;
+}
+
+.member_avatar_4{
+    background: url(../img/about_us_img/member_avatar4.png)center no-repeat;
+}
+
+.member_card__name{
+    margin-bottom: 8px;
+}
+
+.member_card__post{
+    margin-bottom: 16px;
+}
+
+.member_card__social{
+  
+}
+
+.member_card__social__ico{
+    margin: 0 10px;
+}
+
+.

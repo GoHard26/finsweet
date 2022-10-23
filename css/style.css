@@ -405,7 +405,8 @@ overflow: hidden;
     flex-direction: column;
     text-align: left;
     background: #FFF5EB;
-    border-bottom: 16px solid #FFD2A4;;
+    border-bottom: 16px solid #FFD2A4;
+    cursor: pointer;
 }
 
 .info__card:hover, .info__card:focus{
@@ -475,7 +476,7 @@ overflow: hidden;
 
 .welcome__img{
     margin: 2.5%;
-    
+    cursor: pointer;
 }
 
 .welcome__img:hover, .welcome__img:focus{
@@ -553,6 +554,7 @@ overflow: hidden;
     flex-direction: column;
     justify-content: end;
     text-align: left;
+    cursor: pointer;
 }
 
 .benefits__card_first{
@@ -788,6 +790,7 @@ overflow: hidden;
     max-height: 367px;
     background: #FFF5EB;
     border-bottom: 16px solid transparent;
+    cursor: pointer;
 }
 
 .blog__card:hover{
