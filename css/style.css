@@ -286,9 +286,7 @@ transform: translateY(8px) rotate(45deg);
 transform: translateY(-8px) rotate(-45deg);
 }
 
-body.noscroll {
-overflow: hidden;
-}
+
 
 
 /* Home */
@@ -1257,6 +1255,28 @@ overflow: hidden;
         height: 40px;
         font-size: 10px;
     }
+}
+
+@media screen and (max-width:425px) {
+    .header__menu{
+        max-height: 50px;
+    }
+    .nav_bar{
+        box-sizing: border-box;
+        top: 48px;
+        width: 100%;
+        border: 10px solid #000000;
+    }
+    .footer__contacts{
+        margin-right: 89px;
+    }
+    .footer__nav{
+    display: none;
+    }
+    .footer__social{
+        margin-right: 0;
+    }
+   
 }
 
 
