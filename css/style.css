@@ -234,7 +234,7 @@ padding-bottom: 20px;
 position: fixed;
 top: 80px;
 right: -100%;
-width: 35%;
+width: 300px;
 background-color: #FFF5EB;
 z-index: 100;
 display: flex;
@@ -1019,10 +1019,10 @@ overflow: hidden;
         padding: 32px 55px;
     }
     .footer__contacts{
-        margin-right: 15%;
+        margin-right: 13%;
     }
     .footer__nav{
-        margin-right: 15%;
+        margin-right: 13%;
     }
     .footer__social{
         margin-right: 0;
@@ -1036,10 +1036,41 @@ overflow: hidden;
 }
 
 @media screen and (max-width:768px) {
+    h1{
+        font-size: 32px;
+        line-height: 44px;
+    }
+    h2{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    h3{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    h4{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    h5{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    h6{
+        font-size: 12px;
+        line-height: 19px;
+    }
+    p{
+        font-size: 12px;
+        line-height: 19px;
+    }
     .header{
         position: fixed;
         width: 100%;
         z-index: 9999;
+    }
+    .header__wrapper{
+        padding: 0 20px;
     }
     .header__nav{
         display: none;
@@ -1050,26 +1081,171 @@ overflow: hidden;
     .home{
         box-sizing: border-box;
     }
+    .home_wrapper{
+        max-width: 300px;
+    }
+    .info__wrapper{
+        padding: 20px;
+    }
+    .info__title{
+        margin-bottom: 20px;
+    }
+    .main_buttons{
+        padding: 12px 32px;
+        font-size: 12px;
+    }
+    .info__card{
+        margin: 10px;
+    }
     .info__card:hover, .info__card:focus{
         scale: 1;
     }
+    .welcome__wrapper{
+        padding: 20px;
+    }
+    .welcome__container{
+        max-width: 400px;
+    }
+    .welcome__text{
+        margin-bottom: 20px;
+    }
+    .welcome__button{
+        margin-bottom: 20px;
+    }
+    .welcome__img{
+        margin: 10px;
+    }
     .welcome__img:hover, .welcome__img:focus{
         scale: 1;
+    }
+    .welcome__container_bottom{
+        margin-top: 20px;
+    }
+    .benefits__wrapper{
+        padding: 20px;
+    }
+    .benefits__title{
+        margin-bottom: 20px;
+    }
+    .benefits__cards{
+        margin: -80px 0;
+        scale: .9;
+    }
+    .benefits__card{
+        margin: 10px;
+    }
+    .cta{
+        padding: 20px;
     }
     .cta__content_bg{
         display: none;
     }
     .cta__wrapper{
+        box-sizing: border-box;
+        padding: 20px;
         min-width: 284px;
     }
+    .cta__content_block{
+        max-width: 250px;
+    }
     .cta__title{
-        font-size: 32px;
-        line-height: 44px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .cta__text{
+        max-width: 250px;
     }
     .header__button{
         display: none;
     }
-
+    .upcoming_seremons{
+        padding: 20px;
+    }
+    .upcoming_seremons__title{
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    .upcoming_seremons__content_block{
+        padding: 20px;
+        min-width: 300px;
+    }
+    .upcoming_seremons__image{
+        display: none;
+    }
+    .blog{
+        padding: 20px;
+    }
+    .blog__title{
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    .blog__card {
+        margin: 2%;
+    }
+    .blog__card__title{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .footer{
+        padding: 20px;
+    }
+    .footer__logo{
+        width: 100px;
+    }
+    .footer__contacts{
+        margin-right: 20px;
+    }
+    .footer__contacts__item{
+        font-size: 10px;
+        margin: 3px 0;
+    }
+    .footer__nav{
+        margin-right: 19px;
+    }
+    .footer__nav__title{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .footer__nav__link{
+        font-size: 10px;
+    }
+    .footer__nav__item{
+        margin-bottom: 5px;
+    }
+    .footer__social{
+        margin-right: 19px;
+        flex-direction: column;
+    }
+    .footer__social__item{
+        margin-bottom: 5px;
+    }
+    .footer__social__title{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .footer__social__list{
+        flex-direction: column;
+    }
+    .footer__subscribe{
+        margin-top: 20px;
+    }
+    .footer__subscribe__title{
+        font-size: 16px;
+        line-height: 19px;
+        max-width: 200px;
+        margin-bottom: 10px;
+    }
+    .footer__subscribe__autorisation{
+        max-width: 250px;
+        padding-left: 5px;
+    }
+    .footer__subscribe__email{
+        padding: 5px 0;
+        height: 40px;
+        font-size: 10px;
+    }
 }
 
 
