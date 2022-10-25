@@ -4,13 +4,14 @@
 .about_us{
     display: flex;
     flex-direction: column;
-    align-items: baseline;
     text-align: left;
     background: url(../img/about_us_img/about_us_head_bg.png)center no-repeat;
     background-size: cover;
+    max-width: 100%;
 }
 
 .about_us__wrapper{
+    
     padding: 160px 110px;
 }
 
@@ -75,21 +76,21 @@
 
 .benefits_of_church__card{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
+    margin: 10px;
     width: 100%;
-    margin: 2%;
 }
 
 .benefits_of_church__card_left{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: row-reverse;
     flex-wrap: wrap;
     align-items: center;
+    margin: 10px;
     width: 100%;
-    margin: 2%;
 }
 
 .benefits_of_church__card__content{
@@ -107,12 +108,32 @@
 }
 
 .benefits_of_church__card__img{
-    margin-left: 48px;
+
+    min-width: 500px;
+    height: 320px;
 } 
 
 .benefits_of_church__card__img_left{
-    margin-right: 48px;
-}    
+    min-width: 500px;
+    height: 320px;
+}   
+.benefits_card_img1{
+    background: url(../img/about_us_img/benefits_card_img1.png) center no-repeat;
+    background-size:100%;
+} 
+.benefits_card_img2{
+    background: url(../img/about_us_img/benefits_card_img2.png) center no-repeat;
+    background-size:100%;
+} 
+.benefits_card_img3{
+    background: url(../img/about_us_img/benefits_card_img3.png) center no-repeat;
+    background-size:100%;
+} 
+.benefits_card_img4{
+    background: url(../img/about_us_img/benefits_card_img4.png) center no-repeat;
+    background-size:100%;
+} 
+
 
 
 /* Our Team */
@@ -126,7 +147,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .our_team__sub_title{
@@ -135,6 +155,7 @@
 
 .our_team__title{
     margin-bottom: 64px;
+    text-align: center;
 }
 
 .our_team__member__cards{
@@ -186,3 +207,96 @@
 .member_card__social__ico{
     margin: 0 10px;
 }
+
+
+/* Adaptive */
+
+
+@media screen and (max-width:1920px) {
+    .benefits_of_church__card_left{
+        flex-direction: row;
+    }
+}
+@media screen and (max-width:1440px) {
+    .benefits_of_church__card__img_left{
+        margin-left: 0;
+    }
+    .benefits_of_church__card__content{
+        margin-left: 0;
+    }
+    .benefits_of_church__card__img{
+        margin-left: 0;
+    }
+    
+}
+
+@media screen and (max-width:1024px) {
+    .welcome{
+        padding: 64px 0;
+    }
+    .welcome__container_bottom{
+        margin-top: 20px;
+    }
+    .our_team{
+        padding: 64px 55px;
+    }
+    .benefits_of_church{
+        padding: 0 55px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .about_us__wrapper{
+        padding: 40px;
+        padding-top: 100px;
+    }
+    .welcome{
+        padding: 20px;
+    }
+    .benefits_of_church__card__content{
+        min-width: 300px;
+    }
+    .benefits_of_church__card__img{
+        min-width: 300px;
+        max-height: 250px;
+    }
+    .benefits_of_church__card__img_left{
+        min-width: 300px;
+        max-height: 250px;
+    }
+    .welcome__container_bottom__card {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    
+    .benefits_of_church{
+        padding: 20px;
+    }
+    .our_team{
+        padding: 20px;
+    }
+    .our_team__title{
+        margin-bottom: 20px;
+    }
+    .our_team__member__card{
+        margin: 12px 0;
+    }
+    
+    .benefits_of_church__card__content{
+        min-width: 280px;
+    }
+    .benefits_of_church__card__img{
+        min-width: 280px;
+    }
+    .benefits_of_church__card__img_left{
+        min-width: 280px;
+    }
+}
+
+
+
+
+
+

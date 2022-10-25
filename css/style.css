@@ -299,7 +299,7 @@ transform: translateY(-8px) rotate(-45deg);
     margin: 0;
     background-image: url(../img/home_bg.png);
     background-size: cover ;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     background-color: rgb(53, 53, 53);
 }
@@ -1038,31 +1038,31 @@ transform: translateY(-8px) rotate(-45deg);
 
 @media screen and (max-width:768px) {
     h1{
-        font-size: 32px;
+        font-size: 36px;
         line-height: 44px;
     }
     h2{
-        font-size: 24px;
+        font-size: 28px;
         line-height: 28px;
     }
     h3{
-        font-size: 20px;
+        font-size: 24px;
         line-height: 28px;
     }
     h4{
-        font-size: 16px;
+        font-size: 19px;
         line-height: 24px;
     }
     h5{
-        font-size: 14px;
+        font-size: 18px;
         line-height: 20px;
     }
     h6{
-        font-size: 12px;
+        font-size: 16px;
         line-height: 19px;
     }
     p{
-        font-size: 12px;
+        font-size: 16px;
         line-height: 19px;
     }
     .header{
@@ -1080,7 +1080,6 @@ transform: translateY(-8px) rotate(-45deg);
         display: block;
     }
     .home{
-        
         padding: 20px;
         padding-top: 100px;
         box-sizing: border-box;
@@ -1258,6 +1257,7 @@ transform: translateY(-8px) rotate(-45deg);
 }
 
 @media screen and (max-width:425px) {
+    
     .header__menu{
         max-height: 50px;
     }
