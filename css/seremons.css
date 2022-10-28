@@ -1,0 +1,143 @@
+/* Seremons home */
+
+
+.seremons_head{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background: url(../img/seremons_img/seremons_head_bg.png)center no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.seremons_head__wrapper{
+    
+    padding: 160px 110px;
+}
+
+.seremons_head__sub_title{
+    margin-bottom: 16px;
+}
+
+
+/* All events */
+
+
+.all_events{
+    padding: 128px 110px;
+}
+
+.all_events__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.all_events__title{
+    margin-bottom: 64px;
+}
+
+.all_events__cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.all_events__card{
+    position: relative;
+    box-sizing: border-box;
+    padding: 80px 40px;
+    margin: 10px;
+    text-align: left;
+    max-width: 302px;
+    max-height: 454px;
+    background: #FFF5EB;
+    border-bottom: 16px solid transparent;
+    cursor: pointer;
+}
+
+.all_events__card:hover{
+    box-sizing: border-box;
+    border-bottom: 16px solid #FFD2A4;
+    transition: .2s;
+}
+
+.all_events__card__date_plate{
+    margin-top: -56px;
+    margin-right: -14px;
+    margin-bottom: 9px;
+    text-align: right;
+}
+
+.all_events__card__date_plate:first-child{
+    text-align: right;
+}
+
+.all_events__card__sub_title{
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.08em;
+    background: linear-gradient(109.61deg, #A54E2B -53.83%, #DC9853 62.61%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.all_events__card__title{
+    margin-bottom: 16px;
+}
+
+.all_events__card__text{
+    margin-bottom: 48px;
+    color: #161722;
+    opacity: 0.78;
+}
+
+.all_events__card__date{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 16px;
+    line-height: 24px;
+}
+
+.all_events__card__place{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 32px;
+    line-height: 24px;
+}
+
+
+/* Adaptive */
+
+
+@media screen and (max-width:1024px) {
+    .all_events{
+        padding: 64px 55px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .seremons_head__wrapper{
+        padding: 80px 55px;
+        padding-top: 160px;
+        box-sizing: border-box;
+    }
+    .all_events{
+        padding: 20px;
+    }
+    .all_events__title{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .seremons_head__wrapper{
+        padding: 40px 20px;
+        padding-top: 90px;
+    }
+}
