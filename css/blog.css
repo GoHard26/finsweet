@@ -1,0 +1,145 @@
+body{
+    background-color:#F5F2F0;
+}
+.blog_head{
+    padding: 128px 110px;
+    text-align: center;
+}
+
+.blog_head__sub_title{
+    margin-bottom: 16px;
+}
+
+.blog_head__title{
+    margin-bottom: 64px;
+}
+
+.blog_head__post{
+    padding: 56px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #fff;
+    
+}
+
+.blog_head__post__img{
+    background: url(../img/blog_img/most_recent_post_img.png) center no-repeat;
+    background-size: 100%;
+    width: 572px;
+    height: 384px;
+}
+
+.blog_head__post__content{
+    padding: 29px;
+    max-width: 519px;
+    max-height: 327px;
+    text-align: left;
+}
+
+.post_content__poscriptum{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.post_content__poscriptum__date{
+    margin-bottom: 12px;
+    margin-right: 50px;
+    text-transform: uppercase;
+}
+
+.post_content__poscriptum__author{
+    margin-bottom: 12px;
+    margin-right: 50px;
+    text-transform: uppercase;
+}
+
+.post_content__title{
+    margin-bottom: 16px;
+}
+
+.post_content__text{
+    margin-bottom: 32px;
+}
+
+
+/* All Blog Posts */
+
+
+.all_blog_posts{
+    text-align: center;
+    padding: 0 110px;
+    padding-bottom: 128px;
+}
+
+.all_blog_posts__title{
+    margin-bottom: 64px;
+}
+
+.all_blog_posts__cards{
+    padding: auto;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.all_blog_posts__card{
+    background: #FFFFFF;
+}
+
+
+/* Adaptive */
+
+
+@media screen and (max-width:1024px) {
+    .blog_head{
+        padding: 64px 55px;
+    }
+    .all_blog_posts{
+        padding: 0 55px;
+        padding-bottom: 64px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .blog_head{
+        padding: 20px;
+        padding-top: 100px;
+    }
+    .blog_head__title{
+        margin-bottom: 20px;
+    }
+    .blog_head__post{
+        padding: 20px;
+    }
+    .blog_head__post__img{
+        height: 300px;
+    }
+    .all_blog_posts{
+        padding: 0 20px;
+        padding-bottom: 20px;
+    }
+    .all_blog_posts__title{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .blog_head{
+        padding: 20px;
+        padding-top: 70px;
+    }
+    .blog_head__post__img{
+        height: 250px;
+    }
+    .blog_head__post__content{
+        padding: 0;
+        max-height: 400px;
+    }
+    .post_content__poscriptum__date{
+        margin-top: 10px;
+    }
+}

@@ -823,7 +823,7 @@ transform: translateY(-8px) rotate(-45deg);
     flex-direction: column;
 }
 
-.blog__card__postscript__aftor{
+.blog__card__postscript__author{
     color: #161722;
     font-style: normal;
     font-weight: 400;
