@@ -1,0 +1,163 @@
+/* Seremon Event */
+
+
+.seremon_event{
+    padding: 128px 110px;
+    background: #F5F2F0;
+}
+
+.seremon_event__wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.seremon_event__info{
+    margin-right: 32px;
+    width: 40vw;
+}
+
+.seremon_event__info__img{
+    background: url(../img/seremons_img/seremon_event_img.png) center no-repeat;
+    background-size: cover;
+    margin-bottom: 32px;
+    height: 50vh;
+}
+
+.seremon_event__info__sub_title{
+    margin-bottom: 16px;
+}
+
+.seremon_event__info__title{
+    margin-bottom: 16px;
+}
+
+.seremon_event__info__upper_text{
+    margin-bottom: 24px;
+}
+
+.seremon_event__info__middle_text{
+    padding-left: 24px;
+    margin-bottom: 24px;
+    font-size: 24px;
+    line-height: 150%;
+    border-left: 3px solid #FFD2A4;
+}
+
+.seremon_event__info__lower_text{
+
+}
+
+.seremon_event__register_block{
+    margin-left: 32px;
+    padding: 40px;
+    padding-right: 70px;
+    background: #F7F8FA;
+    width: 20vw;
+    max-height: 405px;
+}
+
+.seremon_event__register_block__title{
+    margin-bottom: 32px;
+}
+
+.seremon_event__register_block__info{
+    margin-bottom: 32px;
+    display: flex;
+    
+}
+
+.all_events__card__place{
+    display: flex;
+    align-items: baseline;
+    margin-right: 30px;
+}
+
+.all_events__card__date{
+    display: flex;
+    align-items: baseline;
+}
+
+.seremon_event__register_block__input_name{
+    position: relative;
+    margin-bottom: 32px;
+    border-bottom: 1px solid rgba(35, 37, 54, 0.2);
+    
+}
+
+.form_input{
+    box-sizing: border-box;
+    height: 60px;
+    padding-top: 28px;
+    padding-bottom: 8px;
+    border: none;
+    background: #F7F8FA;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+.form_label{
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    bottom: 0;
+    line-height: 40px;
+    transition: .3s;
+    white-space: nowrap;
+    pointer-events: none;
+    
+}
+.form_input:focus~.form_label,
+.form_input:not(:focus):valid~.form_label {
+    bottom:28px;
+    color: #232536;
+    opacity: 0.6;
+    
+}
+
+.seremon_event__register_block__input_email{
+    position: relative;
+    margin-bottom: 32px;
+    border-bottom: 1px solid rgba(35, 37, 54, 0.2);
+    
+}
+
+.seremon_event__register_block__button{
+
+}
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
