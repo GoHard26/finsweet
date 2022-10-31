@@ -140,4 +140,11 @@
         padding: 40px 20px;
         padding-top: 90px;
     }
+    .all_events__card{
+        padding: 40px 20px;
+    }
+    .all_events__card__date_plate{
+        margin-top: -23px;
+        margin-right: -7px;
+    }
 }

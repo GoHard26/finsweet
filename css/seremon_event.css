@@ -4,6 +4,7 @@
 .seremon_event{
     padding: 128px 110px;
     background: #F5F2F0;
+    padding-top: 64px;
 }
 
 .seremon_event__wrapper{
@@ -13,6 +14,7 @@
 }
 
 .seremon_event__info{
+    margin-top: 64px;
     margin-right: 32px;
     width: 40vw;
 }
@@ -44,16 +46,13 @@
     border-left: 3px solid #FFD2A4;
 }
 
-.seremon_event__info__lower_text{
-
-}
-
 .seremon_event__register_block{
+    box-sizing: content-box;
     margin-left: 32px;
+    margin-top: 64px;
     padding: 40px;
     padding-right: 70px;
     background: #F7F8FA;
-    width: 20vw;
     max-height: 405px;
 }
 
@@ -62,27 +61,27 @@
 }
 
 .seremon_event__register_block__info{
-    margin-bottom: 32px;
     display: flex;
-    
+    flex-wrap: wrap;
 }
 
 .all_events__card__place{
     display: flex;
     align-items: baseline;
     margin-right: 30px;
+    margin-bottom: 32px;
 }
 
 .all_events__card__date{
     display: flex;
     align-items: baseline;
+    margin-bottom: 32px;
 }
 
 .seremon_event__register_block__input_name{
     position: relative;
     margin-bottom: 32px;
     border-bottom: 1px solid rgba(35, 37, 54, 0.2);
-    
 }
 
 .form_input{
@@ -94,7 +93,6 @@
     background: #F7F8FA;
     font-size: 16px;
     line-height: 24px;
-    
 }
 
 .form_label{
@@ -106,58 +104,171 @@
     transition: .3s;
     white-space: nowrap;
     pointer-events: none;
-    
 }
 .form_input:focus~.form_label,
 .form_input:not(:focus):valid~.form_label {
     bottom:28px;
     color: #232536;
     opacity: 0.6;
-    
 }
 
 .seremon_event__register_block__input_email{
     position: relative;
     margin-bottom: 32px;
     border-bottom: 1px solid rgba(35, 37, 54, 0.2);
+}
+
+
+/* Upcoming Seremons */
+
+
+.upcoming_seremons{
+    padding: 128px 110px;
+    padding-top: 0;
+    text-align: center;
+    background: #F5F2F0;
+}
+
+.upcoming_seremons__title{
+    margin-bottom: 64px;
+}
+
+.upcoming_seremons__cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.upcoming_seremons__card{
+    position: relative;
+    box-sizing: border-box;
+    padding: 80px 40px;
+    margin: 10px;
+    text-align: left;
+    max-width: 302px;
+    max-height: 454px;
+    background: #FFF5EB;
+    border-bottom: 16px solid transparent;
+    cursor: pointer;
+}
+
+.upcoming_seremons__card:hover{
+    box-sizing: border-box;
+    border-bottom: 16px solid #FFD2A4;
+    transition: .2s;
+}
+
+.upcoming_seremons__card__date_plate{
+    margin-top: -56px;
+    margin-right: -14px;
+    margin-bottom: 9px;
+    text-align: right;
+}
+
+.upcoming_seremons__card__date_plate:first-child{
+    text-align: right;
+}
+
+.upcoming_seremons__card__sub_title{
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.08em;
+    background: linear-gradient(109.61deg, #A54E2B -53.83%, #DC9853 62.61%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.upcoming_seremons__card__title{
+    margin-bottom: 16px;
+}
+
+.upcoming_seremons__card__text{
+    margin-bottom: 48px;
+    color: #161722;
+    opacity: 0.78;
+}
+
+.upcoming_seremons__card__date{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 16px;
+    line-height: 24px;
+}
+
+.upcoming_seremons__card__place{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 32px;
+    line-height: 24px;
+}
+
+
+/* Adaptive */
+
+
+@media screen and (max-width:1440px) {
+    .seremon_event__info{
+        width: 80vw;
+        margin-right: 0;
+    }
+    .seremon_event__register_block{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .seremon_event{
+        padding: 64px 55px;
+        padding-top: 0;
+    }
     
+    .upcoming_seremons{
+        padding: 64px 55px;
+        padding-top: 0;
+    }
+    .upcoming_seremons__title{
+        margin-bottom: 32px;
+    }
 }
 
-.seremon_event__register_block__button{
-
+@media screen and (max-width:768px) {
+    .seremon_event{
+        padding: 20px;
+        padding-top: 100px;
+    }
+    .seremon_event__info{
+        margin-top: 0;
+        width: 100vh;
+    }
+    .seremon_event__info__img{
+        height: 35vh;
+    }
+    .seremon_event__register_block{
+        margin-top: 40px;
+    }
+    .upcoming_seremons{
+        padding: 20px;
+    }
+    .upcoming_seremons__title{
+        margin-bottom: 20px;
+    }
 }
 
-.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width:425px){
+    .seremon_event{
+        padding-top: 70px;
+    }
+    .seremon_event__info__img{
+        height: 25vh;
+    }
+    .upcoming_seremons__card{
+        padding: 40px 20px;
+    }.upcoming_seremons__card__date_plate{
+        margin-top: -23px;
+        margin-right: -7px;
+    }
+}
